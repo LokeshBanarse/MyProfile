@@ -4,40 +4,66 @@
     <title> Index page </title>
     <!-- CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
 <style>
-  .home{
-             color:blue;
-            background-color: yellow;
-            font-size: large;
+          *{
+             margin: 0px;
+             padding: 0px;
+           }
+      header{
+              background-color: gold;
+              padding: 15px;
+              
+              /* font-size: x-large; */
+              /* font-family: 'Sriracha', cursive; */
+             }
+   .userInfo{ 
+              margin-right: 20px;
+             }
+          a{
+            margin-right: 30px;
+            /* text-transform: uppercase;
+            text-decoration: none;
+            color: cadetblue;
+            font-weight: bolder; */
         }
+        #icon{
+               margin:10px;
+             }
 </style>
 </head>
 <body>
-    <header class="home">
+    <header>
     <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-    <span> Mohit Sharma </span> &nbsp; &nbsp;
+    <span class="userInfo"> Mohit Sharma </span> 
     <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span> 8000 5050 99 </span> &nbsp; &nbsp;  
+    <span class="userInfo"> 8000 5050 99 </span>  
     <i class="fa fa-envelope" aria-hidden="true"></i>
-    <span> Lokesh.sharma@gmail.com </span>
+    <span class="userInfo"> Lokesh.sharma@gmail.com </span>
     </header>
     <br>
     <nav>
-        <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-        <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
+        <a href="home.html" target="frame">HOME</a> 
+        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> 
+        <a href="education.html" target="frame"> EDUCATION </a> 
+        <a href="personal.html" target="frame"> PERSONAL </a> 
         <a href="contactUs.html" target="frame"> CONTACT ME </a>
     </nav>
+</header>
   <br> 
     <iframe width="900px" height="600px" name="frame" src="home.html">
     </iframe>
     <br><br>
-    <span> Follow me </span> &nbsp; &nbsp;
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-instagram" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-facebook-square" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-google" aria-hidden="true"></i> &nbsp; &nbsp; &nbsp;
-    <i class="fa fa-youtube" aria-hidden="true"></i>
-</body>
+    <span> Follow me </span> 
+    
+    <i id="icon" class="fa fa-linkedin-square" aria-hidden="true"></i> 
+    <i id="icon" class="fa fa-instagram" aria-hidden="true"></i> 
+    <i id="icon" class="fa fa-facebook-square" aria-hidden="true"></i> 
+    <i id="icon" class="fa fa-google" aria-hidden="true"></i> 
+    <i id="icon" class="fa fa-youtube" aria-hidden="true"></i>
+    </body>
 </html>
