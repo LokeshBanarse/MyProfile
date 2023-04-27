@@ -2,6 +2,41 @@
 <html>
 <head>
     <title>Contact Us</title>
+    <!--Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+      *{
+        font-family: 'Roboto Slab', serif;
+      }
+      label{
+        color: cadetblue;
+        font-size:large;
+      }
+      input{
+               width: 400px;
+                height: 25px;
+                border-radius: 10px;
+                border: 2px solid rgb(152, 176, 247);
+                color: cadetblue;
+                text-transform: capitalize;
+            }
+            input[type="text"]
+            {
+                text-transform: capitalize;
+            }
+            input[type="email"]{
+                color: chocolate;
+            }
+            #submit:hover{
+                background-color: burlywood;
+            }
+            button[type="reset"]:hover{
+                color: brown;
+            }
+      
+    </style>
 </head>
 <body>
     <h2>Contact Us</h2>
@@ -31,7 +66,7 @@
           </tr>
 
           <tr>
-            <td><button type="submit"><b>Submit</b></button></td>
+            <td><button type="submit" id="submit"><b>Submit</b></button></td>
             <td><button type="reset"><b>Clear</b></button></td>
           </tr>
         </tbody>
