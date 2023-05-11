@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Font Family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body{
+    background-color: rgb(247, 237, 219);
+}
+.container{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
+    background-color: white;
+}
+h2 {
+    margin-left: 20px;
+    padding-top: 20px; 
+    font-weight: bolder; 
+}
+.textbox{
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(45, 178, 230);
+    border-radius: 10px;
+    
+}
+.textbox p{
+    margin-left:20px;
+    padding-top: 20px; 
+    font-size: larger;
+  color:white ;
+}
+.info{
+    margin-left: 20px;
+    padding-top: 20px; 
+    font-weight: bold;
+}
+#label1{
+    width:400px;
+}
+
+#label1::after{
+    content: "*";
+    color: red;
+}
+#label2{
+    width:400px;
+    
+}
+input{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #0d5c63;
+    font-weight: bold;
+    transform: none;
+}
+
+#down{
+     padding: 20px;
+     color: #0d5c63;
+     margin-left:350px; 
+}
+button{
+    font-size: medium;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <h2> Subscriber </h2><br>
+        <hr>
+     
+
+        <div class="textbox">
+            <p> We're sorry to see you go, but hey, no hard<br>
+                 feelings, hopefully we will see you back<br>
+                 one day.
+                 Please fill in your email address in order to<br> unsubscribe from the list.<br>
+                 You will receive an email to confirm your<br>
+                 unsubscription, just to make sure this is<br>
+                 not an accident or somebody else tries to<br>
+                 unsubscribe you. <br>
+           </p>          
+        </div>
+         
+        <div class="info">
+        <form>
+               <label id="label1"> Email </label><br>
+              <input type="email"id="label1" required>
+               <br>
+              <label id="label2"> Unsubscribe reason </label><br>
+              <input type="text" id="label2"placeholder="Unsubscribe reason">
+         </form>
+        </div>
+        <hr>
+        <div id="down">
+            <button> Unsubscribe </button>
+            
+        </div>
+        
+            
+      
+        
+
+
+
+
+    </div>
+</body>
+</html>
