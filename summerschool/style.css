@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 237, 219);
+}
+.container{
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: white;
+}
+h2 {
+    margin-left: 50px;
+    padding-top: 20px; 
+    font-weight: bolder;
+    text-transform: uppercase; 
+}
+img{  
+
+    margin-top: 10px;
+   width: 100%;
+   height: 300px;
+
+}
+.info{
+    display: inline-block; 
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+    margin-left: 20px;
+}
